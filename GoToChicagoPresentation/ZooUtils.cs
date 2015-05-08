@@ -24,10 +24,7 @@ namespace GoToChicagoPresentation
 		public static void SetupShardedZooDatabases()
 		{
 			CreateReplicatedDatabasesPair("DogsZoo");
-			CreateReplicatedDatabasesPair("CatsZoo");
-			CreateReplicatedDatabasesPair("RhinosZoo");
-			CreateReplicatedDatabasesPair("UnicornsZoo");
-			CreateReplicatedDatabasesPair("OgresZoo");
+			CreateReplicatedDatabasesPair("CatsZoo");			
 		}
 
 		private static void CreateReplicatedDatabasesPair(string databaseName)

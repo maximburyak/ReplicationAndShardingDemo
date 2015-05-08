@@ -28,11 +28,11 @@ namespace GoToChicagoPresentation
 		public  void Run()
 		{
 			int input = 0;
-			while (input != 5)
+			while (input != 4)
 			{
 				try
 				{
-					Console.WriteLine("Choose Your Destiny:");
+					Console.WriteLine("Choose The Current Demo:");
 					Console.WriteLine("1)Replicaiton Demonstration");
 					Console.WriteLine("2)Replicaiton Demonstration With Conflicts");
 					Console.WriteLine("3)Sharding Demonstration");

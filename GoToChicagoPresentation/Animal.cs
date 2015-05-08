@@ -9,10 +9,7 @@ namespace GoToChicagoPresentation
 	{
 		public static readonly string[] SpeciesNames = {
 			"Dog",
-			"Cat",
-			"Rhino",
-			"Unicorn",
-			"Ogre"
+			"Cat"			
 		};
 
 		public string Name { get; set; }

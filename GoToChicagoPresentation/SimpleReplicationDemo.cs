@@ -47,7 +47,7 @@ namespace GoToChicagoPresentation
 					{
 						session.Store(new Animal()
 						{
-							Name = string.Format("{0} the {1}th", species, counter),
+							Name = string.Format("{0} #{1}", species, counter),
 							Species = species
 						});
 						session.SaveChanges();

@@ -56,12 +56,12 @@ namespace GoToChicagoPresentation
 					{
 						session1.Store(new Animal()
 						{
-							Name = string.Format("{0} the {1}th - A", species, counter),
+							Name = string.Format("{0} #{1} - A", species, counter),
 							Species = species
 						}, "Animals/" + counter);
 						session2.Store(new Animal()
 						{
-							Name = string.Format("{0} the {1}th - B", species, counter),
+							Name = string.Format("{0} #{1} - B", species, counter),
 							Species = species
 						}, "Animals/" + counter);
 						session1.SaveChanges();
